@@ -1,6 +1,5 @@
 body {
     background-color: #1B1B1B;
-    /* font-family: 'Nova Square', cursive; */
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -92,4 +91,65 @@ transition: box-shadow .2s;
 
 .btn-white:hover {
     box-shadow: 0px 12px 30px rgba(255, 255, 255, 0.25);
+}
+
+.hero__container {
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), 
+    linear-gradient(158.28deg, #FFF8E4 17.51%, rgba(255, 255, 255, 0) 61.97%), 
+    url(06-mercedes-benz-vehicles-mbsocialcar-v-222-s-class-3400x1440.png);
+    border-radius: 41px;
+}
+
+.container2 {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.hero__container2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 60px;
+}
+
+.hero__content {
+    flex: 0 1 50%;
+}
+
+.hero__title {
+    font-family: 'Nova Square', cursive;
+    font-size: 100px;
+    line-height: 110,8%;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.hero__sub-title {
+    font-size: 25px;
+    line-height: 33px;
+    text-align: justify;
+    color: #000000;
+    max-width: 368px;
+    margin-bottom: 53px;
+}
+
+.hero__image {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-black {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 16px 60px;
+    background: #000000;
+    border-radius: 9px;
+}
+
+.hero__btn {
+    margin-bottom: 75px;
 }
