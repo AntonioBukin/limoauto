@@ -177,6 +177,15 @@ transition: box-shadow .2s;
     background-color: transparent;
     padding: 24px 51px;
     cursor: pointer;
+    transition: backgraund-color .1s;
+}
+
+.hero__tab-btn:hover {
+    background-color: rgba(72, 72, 72, .6);
+}
+
+.hero__tab-btn.active {
+    background-color: #484848;
 }
 
 .hero__tab-content {
